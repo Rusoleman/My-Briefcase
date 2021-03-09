@@ -1,0 +1,173 @@
+* {
+    font-family:sans-serif;
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+}
+/*═══════════════════════════════════════════════════════
+                      Global-Styles
+═══════════════════════════════════════════════════════*/
+.body-style{
+    background-color:#111114 ;
+    height: 100vh;
+    width: 100hv;
+}
+
+/*═══════════════════════════════════════════════════════
+                      Navbar-Styles
+═══════════════════════════════════════════════════════*/
+.block-nav{
+    background:#111517;
+    width: 100%;
+    height: 100%;
+    margin-left:25%;
+    margin-top:1%;
+}
+.box-icon{
+    margin-top:.75%;
+    display: inline-flex;
+    border-right: 1px solid #909096;
+    margin-right:5px;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.box-icon a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    text-align:center;   
+}
+.box-icon span:last-child {
+    position: absolute;
+    display:flex;
+    transform: translateY(-160%);
+    color:#EE0137;
+    opacity: .0007;
+}
+.box-icon a span {
+    transition: transform 0.8s ease-out;
+}
+.box-icon a:hover span:first-child{
+    transform: translateY(100%);
+    opacity: .0007;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+.box-icon a:hover span:last-child {
+    transform: translateY(-160%);
+    opacity: 1;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+/* color:#EE0137;*/
+/*═══════════════════════════════════════════════════════
+                      Text-Styles
+═══════════════════════════════════════════════════════*/
+.icon-nav{
+    color:#909096;
+    font-size:2.5rem;
+}
+.icon-nav:hover{
+    color:#EE0137;
+}
+.txt-nav{
+    color:#909096;
+    text-decoration: none;
+    font-size:1rem;
+
+}
+.txt-title{
+    font-family: 'Jura', sans-serif;
+    color: ivory;
+    font-size: 5rem;
+}
+.txt-secInfo{
+    font-family:'Raleway', sans-serif;
+    color:#CAC9C9 ;
+    font-size:1.5rem;
+}
+.txt-secTitle{
+    font-family: 'Jura', sans-serif;
+    color: ivory;
+    font-size: 3rem;
+}
+.symbol-style{
+    font-family: 'Jura', sans-serif;
+    color: ivory;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+.txt-button{
+    font-family: 'Jura', sans-serif;
+    color: ivory;
+    font-size:17px;
+    font-weight:bold;
+}
+/*═══════════════════════════════════════════════════════
+                    Presentation-Style
+═══════════════════════════════════════════════════════*/
+.content-container{
+    margin-top:1%;
+    height:800px;
+}
+.container-description{
+    height: 700px;
+    width: auto;
+    margin-top:7%;
+}
+.container-title{/*Modify to other sizes*/
+    width: 400px;
+    height: 250px;
+    margin-left: 17%;
+}
+.container-secInfo{
+    width: 400px;
+    height: 50px;
+    margin-left: 4%;
+}
+.container-secTitle{
+    margin-top:50%;
+    width: 500px;
+    height: 50px;
+}
+.conatiner-movedUp{
+    width: 300px;
+    height: 50px;
+    padding-bottom: 30%;
+}
+.container-moved{
+    width: 300px;
+    height: 50px;
+    padding-left: 33%;
+    padding-top: 5%;
+}
+.container-symbol{
+    width: 300px;
+    height: 50px;
+    text-align: right;
+    align-items: column;
+
+}
+/*═══════════════════════════════════════════════════════
+                      Button-Styles
+═══════════════════════════════════════════════════════*/
+.start-button{
+    background:#C30021;
+    color:#909096;
+    border: none;
+    border-radius:8px;
+    width: 100px;
+    height: 50px;
+    margin-top: 6%;
+    margin-left:90%;
+}

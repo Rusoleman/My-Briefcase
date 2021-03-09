@@ -3,214 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style-index.css">
     <link rel="stylesheet" href="grid.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <!-- Extern Resources -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+     <!-- Font to support any language -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Jura&family=Noto+Sans+KR:wght@100&family=Raleway&display=swap" rel="stylesheet">
     <script src="function.js"></script>
-    <title>Briefcase</title>
+    <title>Benjamin | Back-End Developer & Datascientist</title>
 </head>
 <body>
-    <header class="container">
-        <nav class="nav-bar">
-            <div class="logo">
-                <a href="#">beNjAmiN</a>
-            </div>
-            <a onclick="showMenu()" href="#">
-                <i class="fas fa-bars position-item"></i>
-            </a>
-            <ul id="showMenu" class="hide container-side">
-                <li><div class="button-style"><a href="#">Home</a></div></li>
-                <li><div class="button-style"><a href="#">My work</a></div></li>
-                <li><div class="button-style"><a href="#">Contact</a></div></li>
-                <li><div class="button-style"><a href="#">About me</a></div></li>
-            </ul>
-        </nav>
-    </header>
-
-   <div class="text-start">
-    <div class="container-start">
+    <div class="body-style"> 
+        <!-- Nav-bar -->
         <div class="row">
-            <div class="col-lg-4 col-md-4">
-                <div class="profile-container">
-                    <h2>About me...</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum adipisci accusamus magnam ea omnis ex excepturi dignissimos vero eveniet molestiae. Maiores veritatis
-                     impedit vel sapiente, voluptates ipsa praesentium hic cum.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4">
-                <div class="title">
-                    <h1>>What you were looking for in a developer<</h1>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4">
-               <div class="links">
-                   <div class="circle-container">
-                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                   </div>
-                   <div class="circle-container">
-                      <a href="#"><i class="fab fa-github"></i></a>
-                   </div>
-                   <div class="circle-container">
-                    <a href="#"><i class="fab fa-codepen"></i></a>
-                   </div>
-                   <div class="circle-container">
-                    <a href="#"><i class="fas fa-at"></i></a>
-                   </div>
-               </div>
-            </div>
+        <div class="col-lg-8 col-md-8">
+            <div class="block-nav">
+                <nav>
+                    <div class="row">
+                        <div class="box-icon col-lg-2 col-md-2">
+                            <a rel="home" href="#">
+                                <span><i class="ri-home-2-line icon-nav"></i></span>
+                                <span class="txt-nav">HOME</span>
+                            </a>
+                        </div>
+                        <div class="box-icon col-lg-2 col-md-2">
+                            <a rel=""  href="About.html">
+                                <span><i class="ri-account-pin-circle-line icon-nav"></i></span>
+                                <span class="txt-nav">ABOUT ME</span>
+                            </a>
+                        </div>
+                        <div class="box-icon col-lg-2 col-md-2">
+                            <a rel="" href="Skills.html">
+                                <span><i class="ri-tools-line icon-nav"></i></span>
+                                <span class="txt-nav">MY SKILLS</span>
+                            </a>
+                        </div>
+                        <div class="box-icon col-lg-2 col-md-2">
+                            <a rel="" href="Work.html">
+                                <span><i class="ri-code-s-slash-fill icon-nav"></i></span>
+                                <span class="txt-nav">MY WORK</span>
+                            </a>
+                        </div>
+                        <div class="box-icon col-lg-2 col-md-2">
+                            <a rel="" href="Contact.html">
+                                <span><i class="ri-send-plane-fill icon-nav"></i></span>
+                                <span class="txt-nav">CONTACT</span>
+                            </a>
+                        </div>
+                        <div class="box-icon col-lg-2 col-md-2">
+                            <a rel="" href="#">
+                                <span><i class="ri-translate-2 icon-nav"></i></span>
+                                <span class="txt-nav">LANGUAGE</span>
+                            </a>
+                           <!--  <ul>
+                                <li></li>
+                            </ul> --> 
+                        </div>
+                    </div>
+                </nav>
             </div>
         </div>
-    </div>
-
-    <section class="text-information">
-        <div class="container-background">
-            <div class="container-information">
-                <div class="row">
-                    <div class="col-lg-4">
-                            <h2>MY KNOWLEDGE</h2>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="block-info">
-                            <h3>HTML5</h3>
-                            <div class="orange">
-                                <i class="fab fa-html5"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="block-info">
-                            <h3>Python</h3>
-                            <div class="blue-py">
-                                <i class="fab fa-python"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="knowledge-block">
-                            <p>
-                               < Every tool that you need to complete any project >
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-2">
-                        <div class="block-info">
-                            <h3>CSS3</h3>
-                            <div class="blue">
-                                <i class="fab fa-css3"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="block-info">
-                            <h3>JavaScript</h3>
-                            <div class="yellow">
-                                <i class="fab fa-js-square"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="block-info">
-                            <h3>Node JS</h3>
-                            <div class="green">
-                                <i class="fab fa-node-js"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="block-info">
-                            <h3>React JS</h3>
-                            <div class="blue-react">
-                                <i class="fab fa-react"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-             </div>
         </div>
-    </section>
-
-    <div class="banner-container">
-        <div class="row">
-            <div class="col-lg-1">
-                <div class="image-banner">
-                    <div class="col-lg-1">
-                        <div class="card-banner">
-                            <h2>Movility to every part in the world</h2>
-                            <hr>
-                            <p>I can speak in various different
-                                 languages, and move to other countries</p>
-                            <div class="miniblock">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <h3>8 different languages</h3>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <h3>131 differents destinations</h3>
-                                    </div>
-                                </div>
+        <!-- Principal Content -->
+        <div class="content-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="container-description">
+                        <div class="container-secInfo">
+                            <h3 class="txt-secInfo">Hello! I'm Benjamin</h3>
+                        </div>
+                        <div class="container-title">
+                            <h1 class="txt-title">Who you were looking for to this work</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="container-description">
+                       <div class="container-secTitle">
+                            <div class="container-movedUp">
+                                <h2 class="txt-secTitle">Full-Stack Developer</h2>
                             </div>
-                         </div>
+                            <div class="container-symbol">
+                                <h2 class="symbol-style">&</h2>
+                            </div>
+                            <div class="container-moved">
+                                <h2 class="txt-secTitle">Datascientist</h2>
+                            </div>
+                            <button class="start-button txt-button">Let's get start</button>
+                       </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <section>
-        <div class="container-work">
-            <div class="row">
-                <div class="col-lg-1">
-                    <div class="text-vertical">
-                        <h2>PROJECTS</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="card">
-                        <h3>My work on Facebook</h3>
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/162622/facebook-login-office-laptop-business-162622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="facebook" >
-                        </figure>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, quasi.</p>
-                        <div class="button-style">
-                            <a href="#">Go to page</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card">
-                        <h3>Beer-Factory Web site</h3>
-                        <figure class="image">
-                            <img src="https://media.timeout.com/images/103871818/630/472/image.jpg" alt="beer-factory">
-                        </figure>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, quasi.</p>
-                        <div class="button-style">
-                            <a href="#">Go to page</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card">
-                        <h3>Google Project</h3>
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/106341/pexels-photo-106341.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="google">
-                        </figure>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, quasi.</p>
-                        <div class="button-style">
-                            <a href="#">Go to page</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
 </body>
 </html>

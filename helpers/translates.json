@@ -1,0 +1,43 @@
+{
+   "English": [
+       {
+           "Item-1":"HOME",
+           "Item-2":"ABOUT ME",
+           "Item-3":"MY SKILLS",
+           "Item-4":"MY WORK",
+           "Item-5":"CONTACT",
+           "Item-6":"LANGUAGE",
+
+           "Presentation":"Hello! I'm Benjamin",
+           "Slogan":"Who you were looking for to this work",
+
+           "Knowledge-A":"Full-Stack Developer",
+           "Knowledge-B":"Datascientist",
+
+           "Button":"Let's get start"
+       },
+       {
+           "about-title":"Me",
+           "first-description":"I'm a web developer and data scientist. I love to create new things and innovate while I work,always I'm 
+           looking for to do quality in awsome projects, experiences and 
+           work together.",
+           "about-subtitle":"My self",
+           "description-sub-1":"Orgnized.Disciplined.Smart.Creative.Focused.",
+           "description-sub-2":" Deportist lover of extreme sports as martial arts and outdoor activities,
+           fan betta fish breeder, and polyglot.",
+           "description-sub-3":"Young enthusiast interested in application development with back-end, 
+           front-end and datascience."
+       },
+       {
+           "skill-title":"Skills & Experience",
+           "skill-1":"I've work in develop of web, app's and differents projects in collaborate
+           with different talent people.",
+           "skill-2":"I've create responsive sites and applications with HTML, CSS, JS, React JS and other 
+           technologies.",
+           "skill-3":"In Back-End area I've worked with different technologies creating data bases and 
+           using data analythics in them.",
+           "skill-4":"My knowledge in datascience has allowed me building a functionally algorytms with machine learning, 
+           artificial intelligence among others."
+       }
+   ],
+}
