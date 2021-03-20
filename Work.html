@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style-index.css">
     <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="Work.css">
+    <!-- UI Component -->
+    <link rel="stylesheet" type="text/css" href="style.css">
     <!-- Extern Resources -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- Font to support any language -->
@@ -50,19 +52,44 @@
                                 </a>
                             </div>
                             <div class="box-icon col-lg-2 col-md-2">
-                                <a rel="" href="#">
+                                <a rel="" href="Contact.html">
                                     <span><i class="ri-send-plane-fill icon-nav"></i></span>
                                     <span class="txt-nav">CONTACT</span>
                                 </a>
                             </div>
                             <div class="box-icon col-lg-2 col-md-2">
-                                <a rel="" href="#">
+                                <button onclick="DownFunction()" class="box-button-icon"> 
                                     <span><i class="ri-translate-2 icon-nav"></i></span>
                                     <span class="txt-nav">LANGUAGE</span>
-                                </a>
-                               <!--  <ul>
-                                    <li></li>
-                                </ul> --> 
+                                </button>
+                                <div id="languages" class="submenu">
+                                    <ul class="dropdown">
+                                        <li class="sub-element">
+                                            <button class="sub-button">English</button>
+                                        </li>
+                                        <li class="sub-element">
+                                            <button class="sub-button">Deutch</button>
+                                        </li>
+                                        <li class="sub-element">
+                                            <button class="sub-button">Русский</button>
+                                        </li>
+                                        <li class="sub-element">
+                                            <button class="sub-button">Français</button>
+                                        </li>
+                                        <li class="sub-element">
+                                            <button class="sub-button">Español</button>
+                                        </li>
+                                        <li class="sub-element">
+                                            <button class="sub-button">Dutch</button>
+                                        </li>
+                                        <li class="sub-element">
+                                            <button class="sub-button">Čeština</button>
+                                        </li>
+                                        <li class="sub-element">
+                                            <button class="sub-button">Polski</button>
+                                        </li>
+                                    </ul>  
+                                </div> 
                             </div>
                         </div>
                     </nav>
@@ -71,8 +98,69 @@
         </div>  
         <!-- Work -->
         <div class="row">
-            
+            <div class="col-lg-12">
+                <div class="carousel-container">
+                    <div class="cards-wrapper">
+                        <ul class="cards__container">
+                            <li class="box">
+                                <div class="infoProject-container">
+                                    <h1>PROJECT NAME</h1>
+                                    <h3>Type Project</h3>
+                                    <p>Description Name</p>
+                                </div>
+                            </li>
+                            <li class="box">
+                                <div class="infoProject-container">
+                                    <h1>PROJECT NAME</h1>
+                                    <h3>Type Project</h3>
+                                    <p>Description Name</p>
+                                </div>
+                            </li>
+                            <li class="box">
+                                <div class="infoProject-container">
+                                    <h1>PROJECT NAME</h1>
+                                    <h3>Type Project</h3>
+                                    <p>Description Name</p>
+                                </div>
+                            </li>
+                            <li class="box">
+                                <div class="infoProject-container">
+                                    <h1>PROJECT NAME</h1>
+                                    <h3>Type Project</h3>
+                                    <p>Description Name</p>
+                                </div>
+                            </li>
+                            <li class="box">
+                                <div class="infoProject-container">
+                                    <h1>PROJECT NAME</h1>
+                                    <h3>Type Project</h3>
+                                    <p>Description Name</p>
+                                </div>
+                            </li>
+                        
+                            <!-- Default Hiiden Cards -->
+                            <li class="box box--hide">
+                                <div class="infoProject-container">
+                                    <h1>PROJECT NAME</h1>
+                                    <h3>Type Project</h3>
+                                    <p>Description Name</p>
+                                </div>
+                            </li>
+                            <li class="box box--hide">
+                                <div class="infoProject-container">
+                                    <h1>PROJECT NAME</h1>
+                                    <h3>Type Project</h3>
+                                    <p>Description Name</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="buttons-container">
+                        <div class="button" onclick="shiftLeft()"><i class="ri-arrow-left-s-line"></i></div>
+                        <div class="button" onclick="shiftRight()"><i class="ri-arrow-right-s-line"></i></div>
+                    </div>
+                </div>
+            </div>    
         </div>
-    </div>
 </body>
 </html>

@@ -6,6 +6,13 @@
 a{
     text-decoration:none;
 }
+button{
+    background:none;
+    border: none;
+}
+button:focus{
+    outline:none;
+}
 /*═══════════════════════════════════════════════════════
                       Global-Styles
 ═══════════════════════════════════════════════════════*/
@@ -13,6 +20,7 @@ a{
     background-color:#111114 ;
     height: 100vh;
     width: 100hv;
+    overflow: hidden;
 }
 
 /*═══════════════════════════════════════════════════════
@@ -68,6 +76,71 @@ a{
     -o-transition: opacity 500ms;
     -ms-transition: opacity 500ms;
     transition: opacity 500ms;
+}
+/*════════════════════ Submenu-styles ════════════════════*/
+.box-button-icon button{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    text-align:center;   
+}
+.box-icon button span {
+    transition: transform 0.8s ease-out;
+}
+.box-icon button:hover span:first-child{
+    transform: translateY(100%);
+    opacity: .0007;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+.box-icon button:hover span:last-child {
+    transform: translateY(-160%);
+    opacity: 1;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+
+.submenu{
+    display: none;
+}
+.show{
+    display: block;
+}
+.sub-element{
+    text-align: center;
+    display: block;
+    width: 70px;
+    height: 20px;
+   
+    margin-top:3px;
+    padding:2px;
+}
+.dropdown{
+  margin-top:3%;  
+   position: absolute;
+  z-index: 1;  
+}
+.sub-button{
+    border: 1px solid #EE0137;
+    color:ivory;
+    font-family:'Raleway', sans-serif;
+    font-size: 1rem;
+    padding:auto;
+    width: 100%;
+    height: 100%;
+}
+.sub-button:hover{
+    color:ivory;
+    background:#EE0137;
+
 }
 /* color:#EE0137;*/
 /*═══════════════════════════════════════════════════════

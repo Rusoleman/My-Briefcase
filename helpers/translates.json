@@ -7,37 +7,116 @@
            "Item-4":"MY WORK",
            "Item-5":"CONTACT",
            "Item-6":"LANGUAGE",
-
            "Presentation":"Hello! I'm Benjamin",
            "Slogan":"Who you were looking for to this work",
-
            "Knowledge-A":"Full-Stack Developer",
            "Knowledge-B":"Datascientist",
-
            "Button":"Let's get start"
        },
        {
            "about-title":"Me",
-           "first-description":"I'm a web developer and data scientist. I love to create new things and innovate while I work,always I'm 
-           looking for to do quality in awsome projects, experiences and 
-           work together.",
+           "first-description":"I'm a web developer and data scientist. I love to create new things and innovate while I work,always I'm looking for to do quality in awsome projects, experiences and work together.",
            "about-subtitle":"My self",
            "description-sub-1":"Orgnized.Disciplined.Smart.Creative.Focused.",
-           "description-sub-2":" Deportist lover of extreme sports as martial arts and outdoor activities,
-           fan betta fish breeder, and polyglot.",
-           "description-sub-3":"Young enthusiast interested in application development with back-end, 
-           front-end and datascience."
+           "description-sub-2":" Deportist lover of extreme sports as martial arts and outdoor activities, fan betta fish breeder, and polyglot.",
+           "description-sub-3":"Young enthusiast interested in application development with Back-end, Front-end and DataScience."
        },
        {
            "skill-title":"Skills & Experience",
-           "skill-1":"I've work in develop of web, app's and differents projects in collaborate
-           with different talent people.",
-           "skill-2":"I've create responsive sites and applications with HTML, CSS, JS, React JS and other 
-           technologies.",
-           "skill-3":"In Back-End area I've worked with different technologies creating data bases and 
-           using data analythics in them.",
-           "skill-4":"My knowledge in datascience has allowed me building a functionally algorytms with machine learning, 
-           artificial intelligence among others."
+           "skill-1":"I've work in develop of web, app's and differents projects in collaborate with different talent people.",
+           "skill-2":"I've create responsive sites and applications with HTML, CSS, JS, React JS and other technologies.",
+           "skill-3":"In Back-End area I've worked with different technologies creating data bases and using data analythics in them.",
+           "skill-4":"My knowledge in datascience has allowed me building a functionally algorytms with machine learning, artificial intelligence among others."
        }
    ],
+   "Deutch": [
+        {
+            "Item-1":"HAUSE",
+            "Item-2":"ÜBER MICH",
+            "Item-3":"MEIN SKILLS",
+            "Item-4":"MEINE ARBEIT",
+            "Item-5":"KONTACT",
+            "Item-6":"SPRACHEN",
+            "Presentation":"Hallo, Ich bin Benjamin",
+            "Slogan":"Wen du hast gesucht für dieser arbeit!",
+            "Knowledge-A":"Full-Stack Entwikkeler",
+            "Knowledge-B":"Datascientist",
+            "Button":"Los gehts!"
+        },
+        {
+            "about-title":"Mich",
+            "first-description":"Ich bin a software-entwikkeler und datascientist. Ich liebe neune Dinge wärend ich arbeite ,für immer ich bin suche Qualität machen in schöne Projekts, Erfahrungen und Zusammenarbeit.",
+            "about-subtitle":"Mich selver",
+            "description-sub-1":"Organisiert.Diszipliniert.Schlau.Kreativ.Konzentriert.",
+            "description-sub-2":"Athlet Ich bin Liebhaber von Extremsportarten wie Kampfkunst und Outdoor-Aktivitäten, Fan Betta Züchter, und Polyglotte.",
+            "description-sub-3":"Begeisterter junger Mann interessiere an der Entwicklung von Webanwendungen mit Back-end, Front-end and Data-Science."
+        },
+        {
+            "skill-title":"Kompetenzen & Erfahrung",
+            "skill-1":"Ich habe gearbeitet in die entwickeln von App's und vershiedene Projekte mit vershintiene talentierte Leute zusamennarbeite",
+            "skill-2":"Ich habe gemacht reaktionfähige Websites und App's mit HTML, CSS, JS, React JS and other technologies.",
+            "skill-3":"In der Back-End area Ich habe gearbeitet mit vershiedene Technologien, Databaken und  Algorithmen für den Betrieb der Anwendung",
+            "skill-4":"Mein Wissen in DataScience hat mir erlaubt  Funktionsalgorithmen baue mit  maschinelles Lernen , künstliche Intelligenz, unter anderen ."
+        }
+    ],
+    "Русский":[
+        {
+            "Item-1":"ДОМЕ",
+            "Item-2":"О МЕНЯ",
+            "Item-3":"МОИ НАВЫКИ",
+            "Item-4":"МОЙ РАБОТА",
+            "Item-5":"КОНТАКТ",
+            "Item-6":"ЯЗЫКИ",
+            "Presentation":"Привет! Я Вениамин",
+            "Slogan":"Кем ты искал на эту работу",
+            "Knowledge-A":"Full-Stack разработчик",
+            "Knowledge-B":"Специалист по данным",
+            "Button":"Начнем!"
+        },
+        {
+            "about-title":"Я",
+            "first-description":"Я программистом а  специалист по данным. Я люблю сделать нового вещи пока работаю ,всегда я искаю делать качество на удивительные проекты, опыт и командная работа.",
+            "about-subtitle":"О себе",
+            "description-sub-1":"Организован.Дисциплинирован.Умный.Креативный.В фокусе.",
+            "description-sub-2":"Спортсмен который лювит экстримальные виды спорта как боевые искусства а мероприятия на свежем воздухе, фанат рыба петушок заводчик , и полигот.",
+            "description-sub-3":"Увлеченный молодой человек заинтересован на разработка приложения с Back-end, Front-end a наука о данных."
+        },
+        {
+            "skill-title":"Навыки & Опыт",
+            "skill-1":"Я работал на разработка бев-приложений а разные проекты сотрудничество с талантливые людем",
+            "skill-2":"Я сделал отзывчивые сайты и приложений с HTML, CSS, JS, React JS a других технологий.",
+            "skill-3":"На Back-End я работал с разныи технологиами, базы данных и алгоритмы для операция приложения.",
+            "skill-4":"Мои знания на наука о данных позволяет мне создайте функциональные алгоритмы с машинное обучением , искусственный интеллект, среди прочего."
+        } 
+    ],
+    "Dutch":[
+        {
+            "Item-1":"ДОМЕ",
+            "Item-2":"О МЕНЯ",
+            "Item-3":"МОИ НАВЫКИ",
+            "Item-4":"МОЙ РАБОТА",
+            "Item-5":"КОНТАКТ",
+            "Item-6":"ЯЗЫКИ",
+            "Presentation":"Привет! Я Вениамин",
+            "Slogan":"Кем ты искал на эту работу",
+            "Knowledge-A":"Full-Stack разработчик",
+            "Knowledge-B":"Специалист по данным",
+            "Button":"Начнем!"
+        },
+        {
+            "about-title":"Я",
+            "first-description":"Я программистом а  специалист по данным. Я люблю сделать нового вещи пока работаю ,всегда я искаю делать качество на удивительные проекты, опыт и командная работа.",
+            "about-subtitle":"О себе",
+            "description-sub-1":"Организован.Дисциплинирован.Умный.Креативный.В фокусе.",
+            "description-sub-2":"Спортсмен который лювит экстримальные виды спорта как боевые искусства а мероприятия на свежем воздухе, фанат рыба петушок заводчик , и полигот.",
+            "description-sub-3":"Увлеченный молодой человек заинтересован на разработка приложения с Back-end, Front-end a наука о данных."
+        },
+        {
+            "skill-title":"Навыки & Опыт",
+            "skill-1":"Я работал на разработка бев-приложений а разные проекты сотрудничество с талантливые людем",
+            "skill-2":"Я сделал отзывчивые сайты и приложений с HTML, CSS, JS, React JS a других технологий.",
+            "skill-3":"На Back-End я работал с разныи технологиами, базы данных и алгоритмы для операция приложения.",
+            "skill-4":"Мои знания на наука о данных позволяет мне создайте функциональные алгоритмы с машинное обучением , искусственный интеллект, среди прочего."
+        } 
+    ]    
 }
